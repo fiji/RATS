@@ -1,8 +1,11 @@
-import ij.*;
-import ij.process.*;
-import ij.plugin.filter.*;
-import ij.gui.*;
-import ij.util.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.Macro;
+import ij.gui.GenericDialog;
+import ij.plugin.filter.PlugInFilter;
+import ij.process.FloatProcessor;
+import ij.process.ImageProcessor;
+import ij.util.Tools;
 /**
   * RATS_ (Robust Automatic Threshold Selection) ImageJ plugin. For use 
   * with companion RATSQuadtree class.  Adaptation of C implementation by 

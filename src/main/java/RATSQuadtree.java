@@ -23,11 +23,10 @@
   *            
 */
 
-import ij.*;
-import ij.gui.*;
-import ij.process.*;
-import ij.plugin.*;
-import java.util.Vector;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.gui.Toolbar;
+import ij.process.ImageProcessor;
 
 public class RATSQuadtree {
 
