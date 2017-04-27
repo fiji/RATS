@@ -242,7 +242,7 @@ public class RATSQuadtree {
   }
 
 /** Returns the two letter quadrant code for the provided child as (NW, NE, SW, SE, or NA)
-  * @param the RATSQuadtree child
+  * @param qc the RATSQuadtree child
   * @return a two letter code indicating the child's quadtrant or NA 
   *  if this child doesn't belong.
   */
@@ -360,7 +360,7 @@ public class RATSQuadtree {
 
 /**
   * Returns the sum of the pixels enclosed in this leaflet
-  * @param imp The imageProcessor of pixels
+  * @param ip The imageProcessor of pixels
   * @return the sum of the pixels
   */
   public float getSumFloat(ImageProcessor ip){
@@ -428,7 +428,7 @@ public class RATSQuadtree {
 
 /**
   * This method returns the pixels enclosed in this leaflet.
-  * @param ip the ImagePlus with the pixels
+  * @param imp the ImagePlus with the pixels
   * @return an 1d array of single precision values
   */
   public float[] getPixelsFloat(ImagePlus imp){
@@ -546,7 +546,7 @@ public class RATSQuadtree {
 
 /**
   * This method creates a 2d array for the level specified.
-  * @param the level to create an array for.
+  * @param theLevel the level to create an array for.
   */
   public float[][] makeArrayFloat(int theLevel){
     int n = (int) Math.pow(2.0, (double) theLevel);
@@ -568,7 +568,7 @@ public class RATSQuadtree {
   
 /**
   * Returns a two element array of [width,height]
-  * @arr the nxm element array of floats
+  * @param arr the nxm element array of floats
   * @return a two element array of [width,height]
   */
   public int[] getArrayDim(float[][] arr){
@@ -580,7 +580,7 @@ public class RATSQuadtree {
   
 /**
   * Returns a two element array of [width,height] for the given input array.
-  * @param a nxm array
+  * @param arr a nxm array
   * @return a two element array of [width,height] for the given input array.
   */
   public int[] getDim(Object[][] arr){
