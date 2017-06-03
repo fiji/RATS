@@ -47,6 +47,10 @@
 			<properties><id>btupper</id></properties>
 		</contributor>
 		<contributor>
+			<name>Mike Sieracki</name>
+			<roles><role>founder</role></roles>
+		</contributor>
+		<contributor>
 			<name>Johannes Schindelin</name>
 			<url>http://imagej.net/User:Schindelin</url>
 			<properties><id>dscho</id></properties>
