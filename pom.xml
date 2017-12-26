@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>RATS_</artifactId>
-	<version>2.0.2-SNAPSHOT</version>
+	<version>2.0.2</version>
 
 	<name>RATS</name>
 	<description>RATS plugin for Fiji.</description>
@@ -72,7 +72,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fiji/RATS</connection>
 		<developerConnection>scm:git:git@github.com:fiji/RATS</developerConnection>
-		<tag>HEAD</tag>
+		<tag>RATS_-2.0.2</tag>
 		<url>https://github.com/fiji/RATS</url>
 	</scm>
 	<issueManagement>
