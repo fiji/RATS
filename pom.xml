@@ -70,7 +70,7 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/fiji/RATS</connection>
+		<connection>scm:git:https://github.com/fiji/RATS</connection>
 		<developerConnection>scm:git:git@github.com:fiji/RATS</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/RATS</url>
